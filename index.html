@@ -1,9 +1,108 @@
 <!DOCTYPE html>
-<html lang="uz" class="scroll-smooth">
+<html lang="uz" prefix="og: https://ogp.me/ns#" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
-    <title>Ideal Water — Toshkentda Oliy Sifatli Ichimlik Suvi & Onlayn To'lov</title>
+    <title>Ideal Water — Toshkentda ichimlik suvi, kuler va yetkazib berish | Ideal Water Service</title>
+    <meta name="description" content="Ideal Water Service — Toshkentda oliy sifatli ichimlik suvi (5L, 10L, 19L), kulerlar, pompa va aksessuarlar. Bepul yetkazib berish. Tel: +998 71 200 81 18. Yaknatal ko‘chasi, Toshkent.">
+    <meta name="keywords" content="ideal water, ideal water toshkent, ichimlik suvi, питьевая вода ташкент, ideal water service, kuler, кулер, suv yetkazib berish, ideal water otzyvy, ideal water купить, ideal water адрес">
+    <meta name="author" content="Ideal Water Service">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="googlebot" content="index, follow">
+    <meta name="yandex" content="index, follow">
+    <link rel="canonical" href="https://ideal-water.uz/">
+    <link rel="shortcut icon" href="iconIW.jpg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="iconIW.jpg">
+
+    <!-- Open Graph (Google / Telegram / Facebook) -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="uz_UZ">
+    <meta property="og:locale:alternate" content="ru_RU">
+    <meta property="og:site_name" content="Ideal Water Service">
+    <meta property="og:url" content="https://ideal-water.uz/">
+    <meta property="og:title" content="Ideal Water — Toshkentda oliy sifatli ichimlik suvi">
+    <meta property="og:description" content="Ichimlik suvi, kulerlar va yetkazib berish. Ideal Water Service, Toshkent. Tel: +998 71 200 81 18">
+    <meta property="og:image" content="https://ideal-water.uz/iconIW.jpg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ideal Water — Toshkentda ichimlik suvi">
+    <meta name="twitter:description" content="Oliy sifatli ichimlik suvi va kulerlar. Bepul yetkazib berish. +998 71 200 81 18">
+
+    <!-- Geo / Local -->
+    <meta name="geo.region" content="UZ-TK">
+    <meta name="geo.placename" content="Tashkent">
+    <meta name="geo.position" content="41.2995;69.2401">
+    <meta name="ICBM" content="41.2995, 69.2401">
+
+    <!-- Structured data: LocalBusiness (Google / Yandex) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Ideal Water Service",
+      "alternateName": ["Ideal Water", "IDEAL WATER SERVICE"],
+      "url": "https://ideal-water.uz/",
+      "logo": "https://ideal-water.uz/iconIW.jpg",
+      "image": "https://ideal-water.uz/iconIW.jpg",
+      "description": "Toshkentda oliy sifatli ichimlik suvi ishlab chiqarish va yetkazib berish. Kulerlar, pompa va aksessuarlar.",
+      "telephone": "+998712008118",
+      "email": "Ideal.water@mail.ru",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Yaknatal street",
+        "addressLocality": "Tashkent",
+        "addressCountry": "UZ"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.2995,
+        "longitude": 69.2401
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "08:00",
+        "closes": "19:00"
+      },
+      "priceRange": "$$",
+      "areaServed": {
+        "@type": "City",
+        "name": "Tashkent"
+      },
+      "sameAs": [
+        "https://ideal-water.uz/"
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Ideal Water",
+      "url": "https://ideal-water.uz/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://ideal-water.uz/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Ideal Water Service",
+      "url": "https://ideal-water.uz/",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+998-71-200-81-18",
+        "contactType": "customer service",
+        "areaServed": "UZ",
+        "availableLanguage": ["uz", "ru"]
+      }
+    }
+    </script>
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -89,7 +188,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            transition: opacity 0.5s ease, visibility 0.5s ease;
+            transition: opacity 0.6s ease, visibility 0.6s ease;
         }
         #loader.hidden {
             opacity: 0;
@@ -534,8 +633,8 @@
     <!-- Mobile navigation -->
     <div id="mobileNav" onclick="if(event.target===this)toggleMobileNav()">
         <a href="#advantages" onclick="toggleMobileNav()">Afzalliklar</a>
-        <a href="#suv-haqida" onclick="toggleMobileNav()">Suv haqida</a>
         <a href="#products" onclick="toggleMobileNav()">Katalog</a>
+        <a href="#suv-haqida" onclick="toggleMobileNav()">Suv haqida</a>
         <a href="#maslahatlar" onclick="toggleMobileNav()">Maslahatlar</a>
         <a href="#faq" onclick="toggleMobileNav()">FAQ</a>
         <a href="tel:+998712008118" onclick="toggleMobileNav()">📞 (71) 200-81-18</a>
@@ -554,7 +653,7 @@
             <p class="text-lg md:text-xl text-slate-300 max-w-2xl mx-auto mb-10 leading-relaxed font-light">
                 Ideal suv - bu ekologik toza hududda joylashgan manbadan shishaga solingan, yuqori sifatli ichimlik suvi.
             </p>
-            <!-- <p class="text-slate-300 text-base sm:text-lg mt-2">Mahsulotlarni ko‘rish</p> -->
+            <p class="text-slate-300 text-base sm:text-lg mt-2">Mahsulotlarni ko‘rish</p>
             <p class="text-slate-500 text-sm mt-4">Buyurtma uchun qo‘ng‘iroq qiling — operatorlar qabul qiladi</p>
         </div>
     </section>
@@ -1173,10 +1272,9 @@
             </p>
             
             <p class="text-xs text-slate-500">
-                <a href="https://www.facebook.com/idealwateruz" class="hover:text-sky-500 transition">Facebook</a> · 
-                <a href="https://www.instagram.com/ideal_wateruz/" class="hover:text-sky-500 transition">Instagram</a> · 
-                <a href="https://www.threads.net/@ideal_wateruz" class="hover:text-sky-500 transition">Threads</a> ·
-                <a href="https://t.me/ideal_water_bot" class="hover:text-sky-500 transition">Telegram bot</a>
+                <a href="#" class="hover:text-sky-500 transition">Facebook</a> · 
+                <a href="#" class="hover:text-sky-500 transition">Instagram</a> · 
+                <a href="#" class="hover:text-sky-500 transition">Telegram bot</a>
             </p>
         </div>
         
@@ -1196,8 +1294,8 @@
     <!-- JavaScript Logic & Telegram API Handler -->
     <script>
         // ⚙️ TELEGRAM BOT SOZLAMALARI:
-        const TELEGRAM_BOT_TOKEN = "telegram_bot_token_here"; // Bot tokenini shu yerga kiriting
-        const TELEGRAM_CHAT_ID = "telegram_chat_id_here"; // Chat ID ni shu yerga kiriting
+        const TELEGRAM_BOT_TOKEN = "8577678252:AAEdDsVEELr4n150ouCF2eK-UmYUVcNkIn4";
+        const TELEGRAM_CHAT_ID = "8636342666";
 
         // ========== ISH VAQTI (Toshkent, 08:00–19:00) ==========
         function getTashkentTime() {
